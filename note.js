@@ -34,6 +34,7 @@
 Option-01: Only ternary operator 
             <h3 className={carts.length===1?'blue':carts.length===2?'lightseagreen':carts.length===3?'red': carts.length===4?'orchid':'special'}>Selected Items: {carts.length}</h3>
             {message}
---------------------------------------------------------------------------------Option-02: ternary operator with template string 
+--------------------------------------------------------------------------------
+Option-02: ternary operator with template string 
             <h1 className={`bolder ${carts.length===1?'orchid':carts.length===2? 'lightseagreen': carts.length===3? 'red':carts.length===4?'blue':carts.length>=5?'special': 'black'}`}>Order Summary</h1>
  */
