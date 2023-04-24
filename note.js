@@ -11,12 +11,13 @@
     else{
         message = <p className="thanks-alert">Thanks For Shopping!!</p>
     }
---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 2. Option-02: ternary operator:
             {
                 carts.length === 0? <p className='alert-to-buy-more'>Dokane Jokhon Esecho, Kicho to Kino</p>:<p className='alert-to-buy'>Tumi Fokir Na, Buje Gechi</p>
             }
---------------------------------------------------------------------------------3. Option-03: Logical &&. If the condition is true, the code will execute.
+-------------------------------------------------------------------------------
+3. Option-03: Logical &&. If the condition is true, the code will execute.
             {
                 carts.length===3 && <p className='discount-50'>If you buy more, you will get 50% discount!!</p>
             }
